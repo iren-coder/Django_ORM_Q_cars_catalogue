@@ -1,0 +1,274 @@
+[03May 13:06:37] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[03May 13:07:42] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[03May 13:32:51] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[04May 10:25:31] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[04May 10:26:25] INFO [django.utils.autoreload:222] C:\Users\asustek\Desktop\Èðà\phyton\D\D10\D10.9_homework\my_homework\catalog\app\urls.py changed, reloading.
+[04May 10:26:28] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[04May 10:27:06] INFO [django.utils.autoreload:222] C:\Users\asustek\Desktop\Èðà\phyton\D\D10\D10.9_homework\my_homework\catalog\app\urls.py changed, reloading.
+[04May 10:27:09] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[04May 10:27:18] WARNING [django.request:222] Not Found: /favicon.ico
+[04May 10:30:41] INFO [django.utils.autoreload:222] C:\Users\asustek\Desktop\Èðà\phyton\D\D10\D10.9_homework\my_homework\catalog\catalog\settings.py changed, reloading.
+[04May 10:30:45] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[04May 10:31:30] INFO [django.utils.autoreload:222] C:\Users\asustek\Desktop\Èðà\phyton\D\D10\D10.9_homework\my_homework\catalog\catalog\settings.py changed, reloading.
+[04May 10:31:34] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[04May 10:32:31] INFO [django.utils.autoreload:222] C:\Users\asustek\Desktop\Èðà\phyton\D\D10\D10.9_homework\my_homework\catalog\app\urls.py changed, reloading.
+[04May 10:32:35] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[04May 10:34:05] INFO [django.utils.autoreload:222] C:\Users\asustek\Desktop\Èðà\phyton\D\D10\D10.9_homework\my_homework\catalog\catalog\settings.py changed, reloading.
+[04May 10:34:09] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[04May 10:37:18] WARNING [django.request:222] Not Found: /cars/admin
+[04May 10:50:37] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[04May 11:00:12] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[04May 11:03:50] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[04May 11:12:59] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[04May 11:14:01] ERROR [django.request:222] Internal Server Error: /admin/app/car/
+Traceback (most recent call last):
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\db\models\options.py", line 581, in get_field
+    return self.fields_map[field_name]
+KeyError: '__str__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\contrib\admin\utils.py", line 262, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\contrib\admin\utils.py", line 293, in _get_non_gfk_field
+    field = opts.get_field(name)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\db\models\options.py", line 583, in get_field
+    raise FieldDoesNotExist("%s has no field named '%s'" % (self.object_name, field_name))
+django.core.exceptions.FieldDoesNotExist: Car has no field named '__str__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\contrib\admin\templatetags\base.py", line 33, in render
+    return super().render(context)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\library.py", line 214, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 342, in result_list
+    'results': list(results(cl)),
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 318, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 309, in __init__
+    super().__init__(*items)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 232, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\contrib\admin\utils.py", line 275, in lookup_field
+    value = attr()
+  File "c:\Users\asustek\Desktop\Èðà\phyton\D\D10\D10.9_homework\my_homework\catalog\app\models.py", line 28, in __str__
+    return self.name
+AttributeError: 'Car' object has no attribute 'name'
+[04May 11:14:17] ERROR [django.request:222] Internal Server Error: /admin/app/car/
+Traceback (most recent call last):
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\db\models\options.py", line 581, in get_field
+    return self.fields_map[field_name]
+KeyError: '__str__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\contrib\admin\utils.py", line 262, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\contrib\admin\utils.py", line 293, in _get_non_gfk_field
+    field = opts.get_field(name)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\db\models\options.py", line 583, in get_field
+    raise FieldDoesNotExist("%s has no field named '%s'" % (self.object_name, field_name))
+django.core.exceptions.FieldDoesNotExist: Car has no field named '__str__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\contrib\admin\templatetags\base.py", line 33, in render
+    return super().render(context)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\library.py", line 214, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 342, in result_list
+    'results': list(results(cl)),
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 318, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 309, in __init__
+    super().__init__(*items)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 232, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\contrib\admin\utils.py", line 275, in lookup_field
+    value = attr()
+  File "c:\Users\asustek\Desktop\Èðà\phyton\D\D10\D10.9_homework\my_homework\catalog\app\models.py", line 28, in __str__
+    return self.name
+AttributeError: 'Car' object has no attribute 'name'
+[04May 11:15:54] INFO [django.utils.autoreload:222] C:\Users\asustek\Desktop\Èðà\phyton\D\D10\D10.9_homework\my_homework\catalog\app\models.py changed, reloading.
+[04May 11:15:58] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[04May 11:20:25] INFO [django.utils.autoreload:222] C:\Users\asustek\Desktop\Èðà\phyton\D\D10\D10.9_homework\my_homework\catalog\app\models.py changed, reloading.
+[04May 11:20:28] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[04May 11:20:50] INFO [django.utils.autoreload:222] C:\Users\asustek\Desktop\Èðà\phyton\D\D10\D10.9_homework\my_homework\catalog\app\models.py changed, reloading.
+[04May 11:20:53] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[04May 11:22:43] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[04May 11:24:57] WARNING [django.request:222] Not Found: /cadmin
+[04May 11:35:44] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[04May 11:37:56] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[04May 11:40:12] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[04May 11:42:20] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[04May 11:59:32] ERROR [django.request:222] Internal Server Error: /cars/
+Traceback (most recent call last):
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: car_list.html, app/car_list.html
+[04May 11:59:55] ERROR [django.request:222] Internal Server Error: /cars/
+Traceback (most recent call last):
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: car_list.html, app/car_list.html
+[04May 12:01:28] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader
+[04May 12:01:40] ERROR [django.request:222] Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: home.html
+[04May 12:03:09] ERROR [django.request:222] Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\asustek\Desktop\Èðà\phyton\D\D3\django\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: home.html
+[04May 12:03:29] INFO [django.utils.autoreload:598] Watching for file changes with StatReloader

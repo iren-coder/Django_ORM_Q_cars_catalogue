@@ -1,0 +1,61 @@
+.navbar {
+    display: flex;
+    box-sizing: border-box;
+    align-items: stretch;
+    justify-content: center;
+    margin: 0 auto;
+    min-height: 89px;
+    background-color:#343a40;
+}
+
+.navbar-expand-lg {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    list-style: none;
+    padding: 0;
+    margin-left: 10px;  
+    }
+
+.nav-item {
+color: #220566;
+}
+
+.content {
+    min-height: calc(100vh - 70px);
+}
+
+.car_image {
+    max-height: 250px;
+    min-height: 180px;
+}
+
+.car-card {
+    border-radius: 1px;
+    padding: 10px 10px;
+    border: 2px solid green;
+}
+.one-row-search {
+    border-radius: 1px;
+    text-align: center;
+    border: 2px solid green;
+    padding: 10px 10px;
+    margin-bottom: 30px;
+    color: green;
+}
+.one-row-search input {
+    width: 70%;
+}
+.search-form {
+    margin-bottom: 20px;
+    border-radius: 1px;
+    border: 2px solid green;
+    padding: 10px 10px;
+    color: green;
+}
+.for-radio {
+    vertical-align: top;
+}
+.form-btn {
+    margin-top: 20px;
+}

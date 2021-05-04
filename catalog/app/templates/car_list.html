@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="container">
+        <br>
+        <h2 class="text-white bg-success mr-3 font-weight-bold">СДЕЛАЙ СВОЙ ВЫБОР</h2>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-8">
+                {% for car in object_list %}
+                <div class="car-card">
+                    <h3>{{ car.producer }}</h3>
+                    <p>Model: <strong>{{ car.model }}</strong></p>
+                    <p>Release year: <strong>{{ car.release_year }}</strong></p>
+                    <p>Transmission: <strong>{{ car.transmission }}</strong></p>
+                    <p>Color: <strong>{{ car.color }}</strong></p>
+
+            <div class="car_image" style="width: 18rem;">
+            <img class="card-img-top" src="/{{ car.image }}" alt="Card image cap" style="max-width: 250px; max-height: 180px;"></div>
+        </div>
+                <br>
+                {% endfor %}
+            </div>
+            <div class="col-4">
+                <form class="one-row-search" action="{% url 'app:car_list' %}">
+                    {{ one_row_search }}
+                    <button type="submit">Искать</button>
+                </form>
+                <form class="search-form" action="{% url 'app:car_list' %}">
+                    <table>{{ optional_search }}</table>
+                    <button class="form-btn" type="submit">Искать</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+{% endblock %}
